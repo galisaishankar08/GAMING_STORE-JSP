@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Homestyle.css">
+</head>
+<body style="background: linear-gradient(to bottom left, #030404 40%, #e79eff 100%);">
+    <header>
+     <br> <br> <br> <br> 
+    <nav class="topNav">
+        <div class="menuFlex">
+          <div class="logo">
+            <a href="Home.html"><img src="gs.jpg" class="logoImg"></a>
+          </div>
+          <div class="menu-toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </div>
+          <div class="menuDeskTop">
+            <ul>
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="profile.jsp">Profile</a></li>
+              <li><a href="About.jsp">About Us</a></li>
+              <li><a href="Login.html">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu">
+          <!--Mobile Dropdown Menu-->
+          <ul>
+            <a href="Home.html">
+              <li>Home</li>
+            </a>
+            <a href="profile.jsp">
+              <li>Profile</li>
+            </a>
+            <a href="About.jsp">
+              <li>About</li>
+            </a>
+            <a href="Login.html">
+              <li>Logout</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+   <script >
+       $(document).ready(function () {
+        $(".menu-toggle a").click(function () {
+            $(".menu").slideToggle(500);
+        });
+        });
+   </script>
+
+<div class="main">
+  <h1 style="color: antiquewhite;">Welcome</h1>
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="./Gamesimg/cod.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Call Of Duty</h2>
+          <p class="card_text"> Call of Duty is a first-person shooter video game franchise published by Activision.
+            Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War,
+           futuristic worlds, and outer space.                                                
+          </p> <br>
+          <a href="./GamesFiles/Modern-Warfare-Setup.exe" > <button class="btn card_btn"> Download</button></a>
+          
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="./Gamesimg/Amongus.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Amoung Us</h2>
+          <p class="card_text">Play online or over local WiFi with 4-15 players as you attempt to prep your spaceship for departure,
+            but beware as one will be an impostor bent on killing everyone!
+            Crewmates can win by completing all tasks or discovering and voting the impostor off the ship.
+            </p> <br>
+            <a href="./GamesFiles/AMONG US V2021.6.15.rar " > <button class="btn card_btn">Download</button></a>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="./Gamesimg/nsf.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Need For Speed</h2>
+          <p class="card_text">Hit the gas and tear up the roads in this legendary action-driving series.
+           Push your supercar to its limits and leave the competition in your rearview or shake off a full-scale police pursuit � it�s all just a key-turn away.
+            Time to work the wheels under the steel and put the pedal to the metal.
+            </p><br>
+          <button class="btn card_btn">Download</button>
+        </div>
+      </div>
+    </li>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+</body>
+</html>
