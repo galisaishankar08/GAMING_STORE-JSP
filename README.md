@@ -3,4 +3,4 @@ The project titled as “GAMING STORE “is a web based application. Gaming Stor
 
 # Deployment
 
-https://gamingstore.netlify.app/home
+https://gssgames-store.netlify.app/
